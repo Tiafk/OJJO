@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 80px 10px 20px;
+
+  .restrictions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+
+    .container {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      .bot {
+        color: var(--black);
+        font-size: 14px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 10px;
+        &:last-child {
+          font-weight: 600;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

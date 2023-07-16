@@ -1,0 +1,83 @@
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  background-image: url(../../../img/Salons/backk.png);
+  background-repeat: no-repeat;
+  padding: 99px 8px;
+
+  .title {
+    margin-bottom: 45px;
+
+    .top {
+      display: flex;
+      flex-direction: column;
+      font-size: 21px;
+      font-family: 'Gilroy';
+      font-weight: 400;
+      line-height: 140%;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 30px;
+      font-family: 'Noto Serif';
+      font-weight: 700;
+    }
+  }
+
+  .text {
+    font-family: 'Gilroy';
+    width: 100%;
+    max-width: 730px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 60px;
+  }
+
+  .btn {
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    background: var(--white);
+    border: 0;
+    padding: 15px 35px;
+    transition: .3s ease;
+
+    &:hover {
+      transition: .3s ease;
+      background: #ebebeb;
+    }
+  }
+}
+
+@media (max-width:1100px) {
+  .wrapper {
+    .title {
+      .top {
+        font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 290px) / 1100));
+      }
+      
+      p {
+        font-size: calc(20px + (8 + 8 * 0.7) * ((100vw - 290px) / 1100));
+      }
+    }
+  
+    .text {
+      font-size: calc(14px + (3 + 3 * 0.7) * ((100vw - 290px) / 1100));
+    }
+  
+    .btn {
+      font-size: calc(14px + (3 + 3 * 0.7) * ((100vw - 290px) / 1100));
+    }
+  }
+}

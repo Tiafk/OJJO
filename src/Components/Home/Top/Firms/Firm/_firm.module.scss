@@ -1,0 +1,11 @@
+.container_firm {
+  display: flex;
+  overflow: hidden;
+  hr {
+    width: 1px;
+    height: 100%;
+    border: 0;
+    background: var(--white);
+    margin: 0 15px;
+  }
+}

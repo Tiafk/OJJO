@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+}
+
+body {
+  font-weight: 300;
+  color: var(--backWhite);
+}
+
+:root {
+  --white: #fff;
+  --backWhite: #F9F9F9;
+  --black: #333333;
+  --hoverBlack: #3b3b3b;
+  --grey: #D6D6D6;
+}
+
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Regular.ttf),
+    url(./fonts/Gilroy-Regular.woff),
+    url(./fonts/Gilroy-Regular.woff2);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Medium.ttf),
+    url(./fonts/Gilroy-Medium.woff),
+    url(./fonts/Gilroy-Medium.woff2);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Semibold.ttf),
+    url(./fonts/Gilroy-Semibold.woff),
+    url(./fonts/Gilroy-Semibold.woff2);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  src: url(./fonts/ofont.ru_NotoSerif.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  src: url(./fonts/ofont.ru_NotoSerif.ttf);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}

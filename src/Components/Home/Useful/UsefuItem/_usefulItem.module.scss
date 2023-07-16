@@ -1,0 +1,126 @@
+.wrapper_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  
+  .blocks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: .2s;
+
+    &:hover {
+      transition: .2s;
+      transform: scale(1.005);
+      box-shadow: 3px 3px 10px #7a7a7a;
+    }
+
+    &:first-child {
+      p {
+        max-width: 154px;
+      }
+    }
+
+    &:last-child {
+      p {
+        max-width: 206px;
+      }
+    }
+
+    img {
+      width: 100%;
+      z-index: 5;
+    }
+
+    p {
+      max-width: 204px;
+      position: absolute;
+      color: var(--white);
+      font-size: 21px;
+      font-family: 'Gilroy';
+      font-weight: 300;
+      line-height: 140%;
+      padding: 0 5px;
+      bottom: 35px;
+      z-index: 10;
+
+    }
+  }
+
+  .btn {
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    padding: 15px 35px;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--black);
+    margin-top: 30px;
+    transition: .2s ease;
+
+    &:hover {
+      transition: .2s ease;
+      background: #464646;
+    }
+  }
+}
+
+@media (max-width:1129px) {
+  .wrapper_card {
+    .blocks {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width:1100px) {
+  .wrapper_card {
+  
+    .container {
+  
+      p {
+        font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 290px) / 1100));
+      }
+    }
+  
+    .btn {
+      font-size: calc(15px + (3 + 3 * 0.7) * ((100vw - 290px) / 1100));
+    }
+  }
+}
+
+@media (max-width:450px) {
+  .wrapper_card {
+    .blocks {
+      display: flex;
+      .container {
+        max-width: 200px;
+      }
+    }
+    .btn {
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 15px 0;
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}
