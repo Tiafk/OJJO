@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OJJO/static/css/main.86671c42.css",
+    "main.css": "/OJJO/static/css/main.b58f579c.css",
     "main.js": "/OJJO/static/js/main.24a58007.js",
     "static/js/787.28cb0dcd.chunk.js": "/OJJO/static/js/787.28cb0dcd.chunk.js",
     "static/media/bgHome.png": "/OJJO/static/media/bgHome.a558c1c6bb8b1e999ef6.png",
@@ -34,12 +34,12 @@
     "index.html": "/OJJO/index.html",
     "static/media/bx_bxl-telegram.svg": "/OJJO/static/media/bx_bxl-telegram.dc49d0bfd441ebc3a0d7b6359efd08b2.svg",
     "static/media/bx_bxl-facebook.svg": "/OJJO/static/media/bx_bxl-facebook.51ae8f928dfc1809d11d0812be30fc8f.svg",
-    "main.86671c42.css.map": "/OJJO/static/css/main.86671c42.css.map",
+    "main.b58f579c.css.map": "/OJJO/static/css/main.b58f579c.css.map",
     "main.24a58007.js.map": "/OJJO/static/js/main.24a58007.js.map",
     "787.28cb0dcd.chunk.js.map": "/OJJO/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86671c42.css",
+    "static/css/main.b58f579c.css",
     "static/js/main.24a58007.js"
   ]
 }
