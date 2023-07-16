@@ -144,6 +144,7 @@
     top: 0;
 
     .burger {
+      display: flex;
       width: 55px;
       height: 55px;
       justify-content: center;
@@ -167,6 +168,12 @@
         }
       }
     }
+    .search{
+      display: none;
+    }
+    .login {
+      display: none;
+    }
   }
   .wrapper_burgerMenu {
     box-sizing: border-box;
@@ -185,20 +192,24 @@
   }
 }
 
-@media (max-width:650px) {
-  .wrapper {
-    .container {
-      .search {
-        display: none;
-      }
-    }
-  }
-}
+// @media (max-width:650px) {
+//   .wrapper {
+//     .container {
+//       .search {
+//         display: none;
+//       }
+//     }
+//   }
+// }
 
-@media (max-width:540px) {
+@media (max-width:670px) {
   .wrapper {
     .container {
       .login {
+        display: none;
+      }
+
+      .search {
         display: none;
       }
 
