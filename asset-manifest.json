@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OJJO/static/css/main.4f2498f8.css",
-    "main.js": "/OJJO/static/js/main.d65f9214.js",
+    "main.css": "/OJJO/static/css/main.ea397113.css",
+    "main.js": "/OJJO/static/js/main.2206bc24.js",
     "static/js/787.28cb0dcd.chunk.js": "/OJJO/static/js/787.28cb0dcd.chunk.js",
     "static/media/bgHome.png": "/OJJO/static/media/bgHome.a558c1c6bb8b1e999ef6.png",
     "static/media/6.png": "/OJJO/static/media/6.30aec263574babc3984c.png",
@@ -34,12 +34,12 @@
     "index.html": "/OJJO/index.html",
     "static/media/bx_bxl-telegram.svg": "/OJJO/static/media/bx_bxl-telegram.dc49d0bfd441ebc3a0d7b6359efd08b2.svg",
     "static/media/bx_bxl-facebook.svg": "/OJJO/static/media/bx_bxl-facebook.51ae8f928dfc1809d11d0812be30fc8f.svg",
-    "main.4f2498f8.css.map": "/OJJO/static/css/main.4f2498f8.css.map",
-    "main.d65f9214.js.map": "/OJJO/static/js/main.d65f9214.js.map",
+    "main.ea397113.css.map": "/OJJO/static/css/main.ea397113.css.map",
+    "main.2206bc24.js.map": "/OJJO/static/js/main.2206bc24.js.map",
     "787.28cb0dcd.chunk.js.map": "/OJJO/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f2498f8.css",
-    "static/js/main.d65f9214.js"
+    "static/css/main.ea397113.css",
+    "static/js/main.2206bc24.js"
   ]
 }
